@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.debezium</groupId>
     <artifactId>debezium-build-parent</artifactId>
-    <version>1.5.4.Final</version>
+    <version>ne-1.5.4-SNAPSHOT</version>
     <name>Debezium Build Aggregator</name>
     <description>Debezium is an open source change data capture platform</description>
     <packaging>pom</packaging>
@@ -122,6 +122,7 @@
         <module>debezium-scripting</module>
         <module>debezium-server</module>
         <module>debezium-testing</module>
+        <module>debezium-connector-oracleplus</module>
     </modules>
 
     <distributionManagement>
